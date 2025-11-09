@@ -25,10 +25,15 @@
 //const y;//const cannot be just declared without value
 
 //in const if we make changes to same ref it will work
-const x=[1,2,3]
-x.push(8)
-console.log(x)
+// const x=[1,2,3]
+// x.push(8)
+// console.log(x)
+//
+// const y={name:"aman"}
+// y.age=26
+// console.log(y)
 
-const y={name:"aman"}
-y.age=26
-console.log(y)
+//multiple declaration
+let a,b=6,c;
+const d=12,e="aman"
+console.log(a,b,c,d,e)
