@@ -4,6 +4,14 @@
 // let b=2
 // console.log(a,b,c)
 // let c='aman'
-let d=23;
-d=29;
-console.log(d);//reassigning is allowed in let
+
+
+
+// let d=23;
+// d=29;
+// console.log(d);//reassigning is allowed in let
+
+
+let e;
+e=11
+console.log(e)
