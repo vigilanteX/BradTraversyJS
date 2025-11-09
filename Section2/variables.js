@@ -12,6 +12,14 @@
 // console.log(d);//reassigning is allowed in let
 
 
-let e;
-e=11
-console.log(e)
+// let e;
+// e=11
+// console.log(e)
+
+
+//cosnt was intro in es6 like to declare constant
+// const x=12
+// console.log(x)
+//x=34;//we cannot reassign value to const
+
+//const y;//const cannot be just declared without value
