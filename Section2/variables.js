@@ -23,3 +23,8 @@
 //x=34;//we cannot reassign value to const
 
 //const y;//const cannot be just declared without value
+
+//in const if we make changes to same ref it will work
+const x=[1,2,3]
+x.push(8)
+console.log(x)
