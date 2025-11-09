@@ -28,3 +28,7 @@
 const x=[1,2,3]
 x.push(8)
 console.log(x)
+
+const y={name:"aman"}
+y.age=26
+console.log(y)
