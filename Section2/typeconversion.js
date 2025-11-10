@@ -22,6 +22,11 @@
 // console.log(typeof samount)
 
 
-let amount='123.555'
-let fs=parseFloat(amount)
-console.log(fs,typeof fs)
+// let amount='123.555'
+// let fs=parseFloat(amount)
+// console.log(fs,typeof fs)
+
+//convert number to boolean
+let a=1
+let ba=Boolean(a)
+console.log(ba,typeof ba)
