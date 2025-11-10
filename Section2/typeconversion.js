@@ -16,7 +16,12 @@
 
 
 
-let amount=100
-// let samount=amount.toString()
-//samount=String(amount)
-console.log(typeof samount)
+// let amount=100
+// // let samount=amount.toString()
+// //samount=String(amount)
+// console.log(typeof samount)
+
+
+let amount='123.555'
+let fs=parseFloat(amount)
+console.log(fs,typeof fs)
