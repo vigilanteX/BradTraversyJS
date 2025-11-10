@@ -26,7 +26,14 @@
 // let fs=parseFloat(amount)
 // console.log(fs,typeof fs)
 
+
 //convert number to boolean
-let a=1
-let ba=Boolean(a)
-console.log(ba,typeof ba)
+// let a=1
+// let ba=Boolean(a)
+// console.log(ba,typeof ba)
+
+
+//if we try to convert string with not number value using Number() ctor
+let a='hello'
+let nab=Number(a)
+console.log(nab,typeof nab)
