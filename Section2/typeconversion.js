@@ -1,5 +1,5 @@
-let amount='100'
-console.log(typeof amount)
+// let amount='100'
+// console.log(typeof amount)
 
 //way1 to convert string to number
 // amount=parseInt(amount)
@@ -13,3 +13,10 @@ console.log(typeof amount)
 //way3 to convert string to number
 // amount=Number(amount)
 // console.log(typeof amount)
+
+
+
+let amount=100
+// let samount=amount.toString()
+//samount=String(amount)
+console.log(typeof samount)
