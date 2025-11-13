@@ -5,5 +5,5 @@ const age=24
 
 x='My name is '+name+' '+age
 
-x=`Hello this is my literal with name ${name} and age ${age}`
+x=`Hello this is my literal with name ${name} and age ${age} and height is ${180+1} cm`
 console.log(x)
