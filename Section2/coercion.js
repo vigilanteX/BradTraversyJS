@@ -6,7 +6,7 @@ x=5*'5'//25 number
 
 x=5+null//5 number as null is zero
 
-x=+null//null value is zero
+x= +null//null value is zero
 
 x=Number(true)//1 number
 
