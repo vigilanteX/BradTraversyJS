@@ -32,3 +32,7 @@ console.log(e.valueOf())
 
 const f='hello aman dixit'
 console.log(f.split(' '))
+
+
+const g='developer'
+console.log(g[0].toUpperCase()+g.substring(1))
