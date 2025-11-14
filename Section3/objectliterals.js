@@ -14,5 +14,7 @@ console.log(employee.name)
 console.log(employee['name'])
 employee['name']='dixit'
 console.log(employee)
-delete employee['name']//remove property from object
+//delete employee['name']//remove property from object
+console.log(employee)
+employee.JL=4//add property directly to object
 console.log(employee)
