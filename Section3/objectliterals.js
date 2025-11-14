@@ -18,3 +18,9 @@ console.log(employee)
 console.log(employee)
 employee.JL=4//add property directly to object
 console.log(employee)
+
+employee.currentTime=function (){
+    console.log(Date.now())
+}
+employee.currentTime()
+console.log(employee)
