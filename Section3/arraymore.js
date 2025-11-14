@@ -10,6 +10,11 @@ let fruits2=['grapes','strawberry']
 // console.log(master)
 // //[ 'banana', 'berries', 'grapes', 'strawberry' ]
 
-//spread
-let x=[...fruits,...fruits2]
-console.log(x)
+// //spread
+// let x=[...fruits,...fruits2]
+// console.log(x)
+
+
+let ar=[1,[2,3],[4,5,6],7,8]
+ar=ar.flat()
+console.log(ar)
