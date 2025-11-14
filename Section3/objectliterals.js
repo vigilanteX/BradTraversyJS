@@ -24,3 +24,12 @@ employee.currentTime=function (){
 }
 employee.currentTime()
 console.log(employee)
+employee['middle name']='P'
+console.log(employee)
+
+console.log('---------------------------------------')
+//another way to create object
+let x=new Object()
+x.name='Aman'
+x.age=25
+console.log(x)
