@@ -18,3 +18,6 @@ let fruits2=['grapes','strawberry']
 let ar=[1,[2,3],[4,5,6],7,8]
 ar=ar.flat()
 console.log(ar)
+console.log(Array.isArray(ar))
+
+console.log(Array.from('abcde'))
