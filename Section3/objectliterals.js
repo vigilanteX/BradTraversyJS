@@ -33,3 +33,27 @@ let x=new Object()
 x.name='Aman'
 x.age=25
 console.log(x)
+
+
+
+const obj1={a:1,b:2}
+const obj2={c:1,d:2}
+const obj3={obj1,obj2,obj3:{e:5,f:7}}
+const obj4={...obj1,...obj2}
+console.log(obj4)
+
+//life before spread operator
+const obj5=Object.assign({},obj1,obj2)
+console.log(obj5)
+
+const obj={
+    firstName:'Aman',
+    lastName:'Aman',
+    age:25,
+    isActive:true
+}
+
+//return keys and values of object
+console.log(Object.keys(obj))
+console.log(Object.values(obj))
+console.log(obj.hasOwnProperty('firstName'))
