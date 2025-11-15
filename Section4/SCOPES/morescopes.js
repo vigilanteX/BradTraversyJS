@@ -32,7 +32,13 @@ if (true)
 // }
 // console.log(j)//works as var is non blocked 11
 
-
+//VAR IS FN SCOPE
+function mellow()
+{
+    var x=12;
+}
+mellow()
+console.log(x)//ReferenceError: x is not defined as var is function scope
 
 
 
