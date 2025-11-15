@@ -21,4 +21,10 @@ function restPrinter(a,b,c,...d)
 {
     console.log(a,b,c,d)
 }
-restPrinter(1,2,3,4,5,6,7)
+restPrinter(1,2,3,4,5,6,7)//aftr 2 everything is array
+
+function printObject(user)
+{
+    console.log(`user name is ${user.name}`)
+}
+printObject({name:"John", age:20});
