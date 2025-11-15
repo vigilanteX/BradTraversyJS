@@ -38,7 +38,7 @@ function mellow()
     var x=12;
 }
 mellow()
-console.log(x)//ReferenceError: x is not defined as var is function scope
+//console.log(x)//ReferenceError: x is not defined as var is function scope
 
 
-
+console.log(window)//all variable declare with var are present in window object i.e global
