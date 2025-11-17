@@ -8,7 +8,15 @@
 * NAN
 * */
 
-const x=NaN;
+
+//truthy
+/*
+* [] empty array
+* {} empty object
+* function {} empty fn
+* everything else is not falsy
+*/
+const x=function (){};
 if (x)
 {
     console.log('x is truthy');
