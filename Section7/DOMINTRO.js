@@ -21,7 +21,25 @@
 //console.log(document.getElementById('nbvc').innerHTML)
 
 //search by id and replace inner text
-let searchedElement=document.getElementById('nbvc')
+//let searchedElement=document.getElementById('nbvc')
 //searchedElement.innerHTML='<h2>this is h2 element</h2>'
 //searchedElement.innerText='this is h2 element'
+
+// let x=document.querySelector('#nbvc>h1')
+// console.log(x.innerText)
+
+let x=document.documentElement
+x=document.head
+x=document.body.children
+x=document.doctype
+x=document.contentType
+x=document.forms//return array of form/s
+x=document.links//returns array of a tag/s
+x[0].id='googold-id'
+
+//use className to add classes
+x[0].className='googoldclass1 googoldclass2 googoldclass3'
+x=x[0].classList
+x=document.images
+console.log(x)
 
