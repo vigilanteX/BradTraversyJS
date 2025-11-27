@@ -5,7 +5,6 @@ function getData(data, cb) {
         if (this.status === 200 && this.readyState === 4) {
             cb(JSON.parse(this.responseText));
         }
-
     }
     xhr.send();
 }
@@ -18,7 +17,6 @@ getData('movies.json', (data) => {
             console.log(data)
         })
     })
-
 })
 // endpoint('movies.json');
 // endpoint('directors.json')
