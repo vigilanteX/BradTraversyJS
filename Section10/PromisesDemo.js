@@ -34,3 +34,17 @@
 // }).catch(err => {
 //     console.log(err)
 // })
+
+
+//handling finally block which will run whether there is error or not
+// let p3 = new Promise((resolve, reject) => {
+//     let n = 2
+//     n % 3 === 0 ? resolve('promise resolved') : reject('promise rejected');
+// })
+// p3.then(data => {
+//     console.log(data)
+// }).catch(err => {
+//     console.log(err)
+// }).finally(()=>{
+//     console.log('done')
+// })
