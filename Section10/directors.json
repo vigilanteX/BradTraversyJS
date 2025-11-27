@@ -1,0 +1,9 @@
+{
+  "directors": [
+    { "director": "Christopher Nolan", "movie": "Inception" },
+    { "director": "S. S. Rajamouli", "movie": "RRR" },
+    { "director": "Martin Scorsese", "movie": "Shutter Island" },
+    { "director": "Denis Villeneuve", "movie": "Dune" },
+    { "director": "Zoya Akhtar", "movie": "Gully Boy" }
+  ]
+}

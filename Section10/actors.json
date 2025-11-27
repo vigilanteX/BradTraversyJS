@@ -1,0 +1,9 @@
+{
+  "actors": [
+    { "actor": "Leonardo DiCaprio", "movie": "Inception" },
+    { "actor": "Robert Downey Jr.", "movie": "Iron Man" },
+    { "actor": "Tom Cruise", "movie": "Top Gun: Maverick" },
+    { "actor": "Scarlett Johansson", "movie": "Lucy" },
+    { "actor": "Brad Pitt", "movie": "Fight Club" }
+  ]
+}
