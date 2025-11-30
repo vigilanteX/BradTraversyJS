@@ -17,8 +17,13 @@ class Rectangle
     {
         return this.height*this.width;
     }
+    displayArea()
+    {
+        console.log(`Display Area is ${this.area()}`);
+    }
 }
 
 let rectangle = new Rectangle('aman',22,22);
 console.log(rectangle);
 console.log(rectangle.area());
+rectangle.displayArea()
